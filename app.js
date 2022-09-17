@@ -6,9 +6,9 @@ const Message = document.querySelector(".Message");
 
 function compareValues(sum, luckyNumber) {
   if (sum % luckyNumber === 0) {
-    Message.innerText = "your birthday date is lucky";
+    Message.innerText = "your birthday date is lucky 🤗";
   } else {
-    Message.innerText = "your birthday date is not lucky";
+    Message.innerText = "your birthday date is not lucky 😟";
   }
 }
 function checkBirthdateIsLucky() {
